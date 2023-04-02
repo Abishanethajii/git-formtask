@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travel Reservation Form</title>
+</head>
+<body>
+<h1>Travel Reservation Form</h1>
+<form>
+<label for="First Name">First Name:</label>
+<input style="text-align:center;" type="text" placeholder="Enter Your First Name" id="First Name"/>
+<br>
+<br>
+<label for="Last Name">Last Name:</label>
+<input style="text-align:center;" type="text" placeholder="Enter Your Last Name" id="Last Name"/><br><br>
+<label for="email">Email:</label>
+<input style="text-align:center;" type="email" placeholder="Enter Your Email" id="email"/><br><br>
+<label for="">Select Package Rates:</label>
+<select>
+<option value="">10600</option>
+<option value="">25000</option>
+<option value="">30000</option>
+</select><br><br>
+<label for="">Select Tour Package:</label>
+<select>
+<optgroup label="Exciting Islands">
+<option value="">Andaman</option>
+<option value="">Bali</option>
+<option value="">Pattaya</option>
+<option value="">Bora-Bora</option>
+</select><br><br>
+<label for="mm/dd/yy">Arival Date:</label>
+<input type="date" id="dd/mm/yy"/><br><br>
+<label for="">Number Of Persons:</label>
+<input type="number" /><br><br>
+<label for="">What Would You Want To Avail?</label><br><br>
+<input type="checkbox"/>
+<label for="">Boarding</label><br>
+<input type="checkbox"/>
+<label for="">Fooding</label><br>
+<input type="checkbox" />
+<label for="">Sight Seeing</label><br><br>
+<label for="">Discount Coupon Code:</label>
+<input type="text"/><br><br>
+<label for="">Terms And Conditions:</label><br><br>
+<input type="radio" id="I agree" name="conditions"/>
+<label for="I agree">I agree</label><br>
+<input type="radio" id="I disagree" name="conditions"/>
+<label for="I disagree">I disagree</label> <br><br>
+<input type="submit" id="Complete Reservation" />
+</form>
+</body>
+</html>
+
+
+
